@@ -19,8 +19,11 @@
   },
   "devDependencies": {
     "babel-core": "^6.0.x",
+    "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.0.x",
     "bower": "^1.6.5",
-    "gulp": "^3.9.x"
+    "del": "^2.0.2",
+    "gulp": "^3.9.x",
+    "webpack-stream": "^2.1.1"
   }
 }

@@ -12,6 +12,7 @@ export default {
         assets: path.join(basePath, 'src/assets')
     },
     build: {
-        dir: path.join(basePath, 'dist')
+        dir: path.join(basePath, 'dist'),
+        jsFile: 'index.js'
     }
 };
