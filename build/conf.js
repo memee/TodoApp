@@ -8,11 +8,13 @@ export default {
      */
     basePath: basePath,
     paths: {
-        app: path.join(basePath, 'src/app'),
-        assets: path.join(basePath, 'src/assets')
+        app: path.join(basePath, './src/app'),
+        assets: path.join(basePath, './src/assets')
     },
     build: {
-        dir: path.join(basePath, 'dist'),
-        jsFile: 'index.js'
+        dir: path.join(basePath, './dist'),
+        jsFile: 'index.js',
+        cssFile: 'index.css',
+        indexFile: 'index.html'
     }
 };
