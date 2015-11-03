@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "authors": [
+    "Tomasz Trębski <tomasz.trebski@ts.fujitsu.com>"
+  ],
+  "description": "Project developed for the purpose of the internal trainings",
+  "main": "dist/todo.js",
+  "keywords": [
+    "training"
+  ],
+  "license": "ApacheLicensev2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-material": "~0.11.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.7"
+  }
+}
