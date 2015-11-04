@@ -1,6 +1,6 @@
 import commonModule from './common/common.module'
 
-const moduleName = 'todo';
+const moduleName = 'todoManager';
 const dependencies = [
     'ngAnimate',
     'ngAria',

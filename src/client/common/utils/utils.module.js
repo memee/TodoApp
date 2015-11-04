@@ -1,9 +1,5 @@
-const moduleName = 'todo.common.utils';
+const moduleName = 'todoManager.common.utils';
 const dependencies = [];
-
-export default angular
-    .module(moduleName, dependencies)
-    .service('todoUtils', ['$window', Utils.factory])
 
 const WINDOW = new WeakMap();
 
@@ -57,3 +53,7 @@ class Utils {
         return new Utils($window);
     }
 }
+
+export default angular
+    .module(moduleName, dependencies)
+    .service('todoUtils', ['$window', Utils.factory])

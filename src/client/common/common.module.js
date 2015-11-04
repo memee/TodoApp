@@ -1,6 +1,6 @@
 import utilsModule from './utils/utils.module';
 
-const moduleName = 'todo.common';
+const moduleName = 'todoManager.common';
 const dependencies = [
     utilsModule.name
 ];
